@@ -1,2 +1,62 @@
-# codecademy_subscriber_cancellations_project
+# Subscriber Cancellations Data Pipeline
+
 This project processes raw subscriber cancellation data and outputs a clean, production-ready dataset. It includes unit tests, logging, and an automated Bash script to update the data pipeline.
+
+---
+
+## Folder Structure
+
+subscriber_cancellations/
+│
+├── data/ # Project data
+│ ├── raw/ # Original raw data (e.g. cademycode_updated)
+│ └── processed/ # Cleaned final dataset (e.g. clean_master_dataset)
+│
+├── logs/ # Log files for each pipeline run
+│
+├── notebooks/ # Jupyter notebooks for development/testing
+│ ├── subscriber_cancellations_data_pipeline.ipynb
+│ └── subscriber_cancellations_test_pipeline.ipynb
+│
+├── prod/ # Final production-ready data (optional)
+│
+├── src/ # Source Python scripts
+│ ├── subscriber_cancellations_data_pipeline.py
+│ └── subscriber_cancellations_test_pipeline.py
+│
+├── run_pipeline.sh # Bash script to automate pipeline
+├── README.md # This file
+└── CHANGELOG.md # Versioning and updates
+
+### Key Files Explained
+
+- `run_pipeline.sh`: Executes the data pipeline with logging
+- `subscriber_cancellations_data_pipeline.py`: Main data cleaning and processing script
+- `subscriber_cancellations_test_pipeline.py`: Unit tests for validating data transformations
+- `README.md`: Project overview and usage instructions
+- `CHANGELOG.md`: Tracks updates, fixes, and versions
+
+---
+
+## Running the Pipeline
+
+1. **Make sure all files are in place:**
+   - Raw data should be in `data/raw/`
+   - Python scripts should be in `src/`
+
+2. **Open a terminal (Git Bash, WSL, or Linux/macOS) and navigate to the project root directory:**
+
+```bash
+cd path/to/subscriber_cancellations
+bash run_pipeline.sh
+
+### Logs
+
+Log files are automatically generated in the `/logs` directory every time the pipeline runs.
+
+- Example log: `pipeline_2025-08-05.log`
+- Contains info on: pipeline steps, successes, warnings, and any errors
+
+### Versioning
+
+See `CHANGELOG.md` for update history, version tags, and development notes.
