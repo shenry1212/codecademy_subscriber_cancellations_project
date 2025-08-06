@@ -4,29 +4,7 @@ This project processes raw subscriber cancellation data and outputs a clean, pro
 
 ---
 
-## Folder Structure
-
-subscriber_cancellations/
-│
-├── data/ # Project data
-│ ├── raw/ # Original raw data (e.g. cademycode_updated)
-│ └── processed/ # Cleaned final dataset (e.g. clean_master_dataset)
-│
-├── logs/ # Log files for each pipeline run
-│
-├── notebooks/ # Jupyter notebooks for development/testing
-│ ├── subscriber_cancellations_data_pipeline.ipynb
-│ └── subscriber_cancellations_test_pipeline.ipynb
-│
-├── prod/ # Final production-ready data (optional)
-│
-├── src/ # Source Python scripts
-│ ├── subscriber_cancellations_data_pipeline.py
-│ └── subscriber_cancellations_test_pipeline.py
-│
-├── run_pipeline.sh # Bash script to automate pipeline
-├── README.md # This file
-└── CHANGELOG.md # Versioning and updates
+<pre><code>## 📁 Folder Structure <project-root>/ ├── data/ │ ├── raw/ # Original raw data (e.g. cademycode_updated) │ └── processed/ # Cleaned final dataset (e.g. clean_master_dataset) ├── logs/ # Log files for each pipeline run ├── notebooks/ # Jupyter notebooks for development/testing │ ├── subscriber_cancellations_data_pipeline.ipynb │ └── subscriber_cancellations_test_pipeline.ipynb ├── prod/ # Final production-ready data (optional) ├── src/ # Source Python scripts │ ├── subscriber_cancellations_data_pipeline.py │ └── subscriber_cancellations_test_pipeline.py ├── run_pipeline.sh # Bash script to automate pipeline ├── README.md # This file └── CHANGELOG.md # Versioning and updates </code></pre>
 
 ### Key Files Explained
 
