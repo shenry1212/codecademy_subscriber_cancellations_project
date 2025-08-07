@@ -1,10 +1,10 @@
-# 📊 Subscriber Cancellations Data Pipeline – Project Write-Up
+# Subscriber Cancellations Data Pipeline – Project Write-Up
 
 This project is a robust end-to-end pipeline that processes raw subscriber cancellation data into a clean, production-ready dataset. It emphasizes automation, reliability, and maintainability through thoughtful use of data cleaning, unit testing, logging, and Bash scripting.
 
 ---
 
-## 🧹 Data Cleaning Operations
+## Data Cleaning Operations
 
 The raw dataset required several preprocessing steps to ensure consistency and quality:
 
@@ -17,7 +17,7 @@ These steps were necessary to prevent schema mismatches and ensure reliable down
 
 ---
 
-## ✅ Unit Testing
+## Unit Testing
 
 To validate the integrity of data transformations, I implemented unit tests using `unittest`:
 
@@ -30,7 +30,7 @@ Unit tests help catch regression errors early and make the pipeline easier to ma
 
 ---
 
-## ⚙️ Bash Script Automation
+## Bash Script Automation
 
 I automated the update process with a Bash script (`run_pipeline.sh`), which:
 
@@ -42,7 +42,7 @@ This improves reproducibility and simplifies the update process for other users 
 
 ---
 
-## 🔐 Protecting the Final Database
+## Protecting the Final Database
 
 To avoid corrupting the production-ready output, I added several safeguards:
 
@@ -53,7 +53,7 @@ To avoid corrupting the production-ready output, I added several safeguards:
 
 ---
 
-## 💼 Skills Demonstrated
+## Skills Demonstrated
 
 This project showcases the following skills:
 
