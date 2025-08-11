@@ -4,7 +4,7 @@ This project processes raw subscriber cancellation data and outputs a clean, pro
 
 ---
 
-## Folder Structure
+## 📂 Folder Structure
 
 ```
 subscriber_cancellations/
@@ -29,11 +29,10 @@ subscriber_cancellations/
 - `subscriber_cancellations_data_pipeline.py`: Main data cleaning and processing script
 - `subscriber_cancellations_test_pipeline.py`: Unit tests for validating data transformations
 - `README.md`: Project overview and usage instructions
-- `CHANGELOG.md`: Tracks updates, fixes, and versions
 
 ---
 
-## Running the Pipeline
+## 🚀 Running the Pipeline
 
 1. **Make sure all files are in place:**
    - Raw data should be in `data/raw/`
@@ -44,14 +43,10 @@ subscriber_cancellations/
 ```bash
 cd path/to/subscriber_cancellations
 bash run_pipeline.sh
-
+```
 ### Logs
 
 Log files are automatically generated in the `/logs` directory every time the pipeline runs.
 
 - Example log: `pipeline_2025-08-05.log`
 - Contains info on: pipeline steps, successes, warnings, and any errors
-
-### Versioning
-
-See `CHANGELOG.md` for update history, version tags, and development notes.
