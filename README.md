@@ -15,13 +15,11 @@ subscriber_cancellations/
 ├── notebooks/            # Jupyter notebooks for development/testing
 │   ├── subscriber_cancellations_data_pipeline.ipynb
 │   └── subscriber_cancellations_test_pipeline.ipynb
-├── prod/                 # Final production-ready data (optional)
 ├── src/                  # Source Python scripts
 │   ├── subscriber_cancellations_data_pipeline.py
 │   └── subscriber_cancellations_test_pipeline.py
-├── run_pipeline.sh       # Bash script to automate pipeline
 ├── README.md             # This file
-└── CHANGELOG.md          # Versioning and updates
+├── run_pipeline.sh       # Bash script to automate pipeline
 ```
 
 ### Key Files Explained
