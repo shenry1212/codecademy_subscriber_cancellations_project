@@ -20,6 +20,7 @@ subscriber_cancellations/
 │   └── subscriber_cancellations_test_pipeline.py
 ├── README.md             # This file
 ├── run_pipeline.sh       # Bash script to automate pipeline
+└── write_up.md           # Detailed explanation of process
 ```
 
 ### Key Files Explained
