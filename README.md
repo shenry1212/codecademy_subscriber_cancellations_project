@@ -1,6 +1,7 @@
 # Subscriber Cancellations Data Pipeline
 
 This project processes raw subscriber cancellation data and outputs a clean, production-ready dataset. It includes unit tests, logging, and an automated Bash script to update the data pipeline.
+The project was completed with Google Colab.
 
 ---
 
