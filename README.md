@@ -9,8 +9,8 @@ This project processes raw subscriber cancellation data and outputs a clean, pro
 ```
 subscriber_cancellations/
 ├── data/
-│   ├── raw/              # Original raw data (e.g. cademycode_updated)
-│   └── processed/        # Cleaned final dataset (e.g. clean_master_dataset)
+│   ├── processed/        # Cleaned final dataset (e.g. clean_master_dataset)
+│   └── raw/              # Original raw data (e.g. cademycode_updated)
 ├── logs/                 # Log files for each pipeline run
 ├── notebooks/            # Jupyter notebooks for development/testing
 │   ├── subscriber_cancellations_data_pipeline.ipynb
